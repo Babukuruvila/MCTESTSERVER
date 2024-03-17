@@ -1,6 +1,10 @@
 class script(object):
-    START_TXT = """<i><b>𝖧𝖾𝗅𝗅𝗈 {},
-ഞാൻ ഒരു ബോട്ട് ആണ്, എന്നെ നിങ്ങളുടെ ഗ്രൂപ്പിൽ ആഡ് ചെയ്യാൻ നോക്കി സമയം കളയണ്ട, എന്നെ എന്റെ അഡ്മിന്റെ ഗ്രൂപ്പിൽ മാത്രമേ ആഡ് ചെയ്യാൻ കഴിയൂ...!!!"""
+    START_TXT = """<b><i>Hey {}
+I'm Innovative Auto-Filter Bot I Can Send You Films In Your Groups..
+
+I Can Provide Movies In Your Telegram Groups.Its Easy To Use Me Just Add Me To Your Group As Admin Thats All i will Provide Movies There.
+
+More Help Check Help Button Below!</i></b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
