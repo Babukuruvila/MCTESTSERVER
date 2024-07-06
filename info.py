@@ -18,7 +18,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '1853675'))
 API_HASH = environ.get('API_HASH', '5376fdfe26053da7d777712602ff5a5b')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6742583677:AAF3hPO89BjcLQiadyj_khO8ZGykWytHdLQ')
+BOT_TOKEN = environ.get('BOT_TOKEN', '5729098696:AAHdBKMFPHYE1JM2nKyOzZ-FPRKGIjV6DT4')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -43,8 +43,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'False')), False)
 
 # MongoDB information
-SECONDDB_URI = environ.get('SECONDDB_URI', "mongodb+srv://inoxbotdb:inoxbotdb@cluster0.iarv6iy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://inox:inox@cluster0.cq3jwmi.mongodb.net/?retryWrites=true&w=majority")
+SECONDDB_URI = environ.get('SECONDDB_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mctestmongo:mctestmongo@cluster0.ie9kcv1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -71,7 +71,7 @@ PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+MjTCbVVSRHY5MzQ1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/MCMovieRobot')
 MSG_ALRT = environ.get('MSG_ALRT', '❤️')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001975083503'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001788694393'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MCMovieRobot')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
